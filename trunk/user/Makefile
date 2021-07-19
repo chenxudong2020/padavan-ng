@@ -130,7 +130,7 @@ dir_$(CONFIG_FIRMWARE_INCLUDE_TOR)		+= tor
 dir_$(CONFIG_FIRMWARE_INCLUDE_PRIVOXY)		+= privoxy
 dir_$(CONFIG_FIRMWARE_INCLUDE_DNSCRYPT)	+= dnscrypt-proxy
 dir_$(CONFIG_FIRMWARE_INCLUDE_STUBBY)		+= stubby
-dir_$(CONFIG_FIRMWARE_INCLUDE_ALIDDNS)		+= aliddns
+dir_y		                                += aliddns
 ifneq (,$(filter y,$(CONFIG_FIRMWARE_INCLUDE_XUPNPD) $(CONFIG_FIRMWARE_INCLUDE_LUA)))
 dir_y						+= lua
 dir_$(CONFIG_FIRMWARE_INCLUDE_XUPNPD)           += xupnpd
